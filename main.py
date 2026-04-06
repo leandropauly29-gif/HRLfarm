@@ -28,7 +28,7 @@ menu = st.sidebar.radio("Navegação", ["📊 Painel Geral", "📂 Upload Lote (
 
 # --- FUNÇÃO DE PROCESSAMENTO ---
 def processar_documento(arquivo):
-    model = genai.GenerativeModel('gemini-1.5-flash')
+    model = genai.GenerativeModel('gemini-1.5-flash-latest')
     prompt = """
     Aja como um farmacêutico clínico. Extraia do documento:
     1. Nome do Paciente (se houver)
