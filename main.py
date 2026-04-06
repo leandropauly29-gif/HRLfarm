@@ -5,7 +5,7 @@ from PIL import Image
 
 # --- CONFIGURAÇÃO DA API ---
 # O segredo é garantir que a API KEY seja lida corretamente
-API_KEY = st.secrets.get("GEMINI_API_KEY", "AIzaSyDokYZR8A41mtGEb0xVX4160fY2j0EOyHA")
+API_KEY = st.secrets.get("GEMINI_API_KEY", "AIzaSyB0sdXSvNdYT464RbbzUCUJu1N4zcIIPVg")
 genai.configure(api_key=API_KEY)
 
 # --- CONFIGURAÇÃO DA PÁGINA ---
